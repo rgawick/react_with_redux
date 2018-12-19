@@ -3,13 +3,6 @@ import { connect } from 'react-redux'
 
 class Dog extends Component {
 
-    constructor(props) {
-      super(props)
-  
-      this.state = {
-        imageURL: 'https://img.huffingtonpost.com/asset/5b7fdeab1900001d035028dc.jpeg?cache=sixpwrbb1s&ops=1910_1000'
-      }
-    }
   
     render() {
       return (
